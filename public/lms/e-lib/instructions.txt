@@ -1,0 +1,2 @@
+Remember the movie booking site we did as a group assignment in class
+Make an interface similar to it but only difference is there should be book covers instead of movie posters

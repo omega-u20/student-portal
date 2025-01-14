@@ -1,0 +1,2 @@
+Simmilar to sem-fee interface.
+Info about room instead of semester payment.

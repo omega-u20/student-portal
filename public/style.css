@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&display=swap');
 :root{
-    --blue:#09005e;
-    --yellow:#eeff00;
+    --blue:#233e86;
+    --l-blue:#1d96d3;
+    --yellow:#ffff00;
+    --orange:#e2a653;
 }
 body{
     font-family: "Host Grotesk", serif;
@@ -12,10 +14,45 @@ body{
     align-items: center;
 }
 
+footer p {
+    color: white;
+    margin: 0;
+}
+
+div#uni-img-over {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 4;
+    background-image: linear-gradient(90deg, #1f1f1fb8, #1f1f1f30);
+}
+
+.content {
+    display: flex;
+    z-index: 12;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+div#uni-img {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background-image: url(./img/uni.jpeg);
+    background-position: bottom;
+}
+
 h1 {
     font-size: 100pt;
     padding-left: 36pt;
     font-weight: 900;
+}
+
+.content h1 {
+    color: white;
 }
 nav{
     display: flex;
@@ -34,10 +71,13 @@ footer{
     position: fixed;
     bottom: 0;
     left: 0;
+    z-index: 50;
     height: 5vh;
     width: 100%;
     align-items: center;
     justify-content: center;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 nav a{
 text-decoration: none;
@@ -57,7 +97,8 @@ nav a:nth-child(1) {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 50;
     height: 5.5vh;
     width: 100%;
-    background-image: linear-gradient(90deg,#00eeff 90%,var(--blue) 90%,var(--blue) 95%,var(--yellow)95%);
+    background-image: linear-gradient(90deg,var(--blue) 90%,var(--orange) 90%,var(--orange) 95%,var(--yellow)95%);
 }

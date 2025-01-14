@@ -1,0 +1,3 @@
+Just copy and past index.html & style.css in hub1 folder
+Then change every place that says hub 1 to hub 2
+EASY

@@ -5,8 +5,7 @@ const PORT = process.env.PORT||3000
 app.use(express.static('public/'))
 
 app.get('/',(req,res)=>{
-    res.send(req.query)
-    
+    res.status(200)
 })
 
 app.listen(PORT,()=>{
