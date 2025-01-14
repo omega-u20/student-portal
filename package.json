@@ -1,0 +1,25 @@
+{
+  "name": "student_portal",
+  "version": "1.0.0",
+  "description": "SLTC student portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omega-u20/student-portal.git"
+  },
+  "keywords": [
+    "web",
+    "app",
+    "node",
+    "utility"
+  ],
+  "author": "Group",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omega-u20/student-portal/issues"
+  },
+  "homepage": "https://github.com/omega-u20/student-portal#readme"
+}

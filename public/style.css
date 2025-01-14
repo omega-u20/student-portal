@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&display=swap');
+:root{
+    --blue:#09005e;
+    --yellow:#eeff00;
+}
+body{
+    font-family: "Host Grotesk", serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1 {
+    font-size: 100pt;
+    padding-left: 36pt;
+    font-weight: 900;
+}
+nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5vh;
+    width: 100%;
+    background-color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 5vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+text-decoration: none;
+width: 5vw;
+display: flex;
+justify-content: center;
+height: inherit;
+align-items: center;
+}
+
+nav a:nth-child(1) {
+    position: absolute;
+    left: 0;
+}
+#nav-bottom{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5.5vh;
+    width: 100%;
+    background-image: linear-gradient(90deg,#00eeff 90%,var(--blue) 90%,var(--blue) 95%,var(--yellow)95%);
+}
