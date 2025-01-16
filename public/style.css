@@ -79,13 +79,10 @@ footer{
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
-nav a{
-text-decoration: none;
-width: 5vw;
-display: flex;
-justify-content: center;
-height: inherit;
-align-items: center;
+nav a{text-decoration: none;width: 6vw;display: flex;justify-content: center;height: inherit;align-items: center;font-weight: 600;transition: .2s all;}
+
+nav a:hover {
+    color: var(--blue);
 }
 
 nav a:nth-child(1) {
