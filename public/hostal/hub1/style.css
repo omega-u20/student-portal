@@ -11,6 +11,7 @@
 .content{
     justify-content: center;
     overflow-y: auto;
+    align-items: center;
 }
 #roomlist{
     width: 80%;
