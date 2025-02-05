@@ -17,11 +17,74 @@ h5 {
     border-bottom: solid var(--garys-gray) 1px;
     padding: 1em;
 }
-
 .holder-card.assignments {
     height: fit-content;
 }
-
 .content {
     justify-content: center;
+}
+.assign-card{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: solid var(--garys-gray) .5px;
+    border-bottom: solid var(--garys-gray) .5px;
+}
+
+.assign-card h6 {
+    margin: 0;
+}
+
+.assign-card img {
+    width: 45px;
+    background-color: var(--blue);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.assign-card h5 {
+    margin: 0;
+}
+
+.assign-card p {
+    margin: 0;
+}
+.module-card{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: solid var(--garys-gray) .5px;
+    border-bottom: solid var(--garys-gray) .5px;
+}
+
+.module-card h6 {
+    margin: 0;
+}
+
+.module-card img {
+    width: 45px;
+    background-color: var(--garlic-green);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.module-card h5 {
+    margin: 0;
+}
+
+.module-card p {
+    margin: 0;
+}
+#quote{
+    font-family: "Delius Swash Caps",cursive;
 }

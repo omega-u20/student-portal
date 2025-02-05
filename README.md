@@ -21,8 +21,8 @@ This repo consist of project files for human factors mini project.
 - [x] Landing Page {This page is in the public folder}
 - [ ] Login Page
 - [ ] Profile/Dashboard Page
-- [ ] Hostel reservation Page
+- [x] Hostel reservation Page
 - [ ] Finance Page
-- [ ] LMS Page
+- [x] LMS Page
 - [ ] News Page
 - [ ] Guide Page
