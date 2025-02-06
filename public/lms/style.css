@@ -23,7 +23,7 @@ h5 {
 .content {
     justify-content: center;
 }
-.assign-card{
+.card{
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -35,56 +35,69 @@ h5 {
     border-top: solid var(--garys-gray) .5px;
     border-bottom: solid var(--garys-gray) .5px;
 }
-
-.assign-card h6 {
-    margin: 0;
+.card button{
+    background-color: var(--blue);
+    border: none;
+    padding: .3em;
+    width: 57px;
+    color: white;
+    font-weight: 600;
+    border-radius: inherit;
+    transition: background-color .3s;
+}
+#archolder{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    width: 100%;
+    height: fit-content;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.arcard{
+    border: solid var(--garys-gray) 1px;
+    width: fit-content;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    background-image: linear-gradient(0deg, transparent, #d1d1d100, #7d7d7d4f);
 }
 
-.assign-card img {
+.arcard button {
+    background-color: var(--blue);
+    border: none;
+    padding: .3em;
+    width: 57px;
+    color: white;
+    font-weight: 600;
+    border-radius: 0.4em;
+    transition: background-color .3s;
+}
+
+.arcard img {
+    width: 100%;
+}
+.card button:hover {
+    background-color: var(--devine-blue);
+}
+.card h6 {
+    margin: 0;
+}
+.card img {
     width: 45px;
     background-color: var(--blue);
     padding: 5px;
     border-radius: 8px;
 }
-
-.assign-card h5 {
+.card h5 {
     margin: 0;
 }
-
-.assign-card p {
+.card p {
     margin: 0;
 }
-.module-card{
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-top: solid var(--garys-gray) .5px;
-    border-bottom: solid var(--garys-gray) .5px;
-}
-
-.module-card h6 {
-    margin: 0;
-}
-
-.module-card img {
-    width: 45px;
+.card.module img {
     background-color: var(--garlic-green);
-    padding: 5px;
-    border-radius: 8px;
 }
 
-.module-card h5 {
-    margin: 0;
-}
-
-.module-card p {
-    margin: 0;
-}
 #quote{
     font-family: "Delius Swash Caps",cursive;
 }
