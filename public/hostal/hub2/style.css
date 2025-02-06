@@ -45,7 +45,7 @@
     color: red;
 }
 footer{
-    background-color: black;
+    background-color: var(--berserk-of-abyss);
     color: white;
     position: relative;
     height: 87px;

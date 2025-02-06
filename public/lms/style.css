@@ -106,8 +106,9 @@ nav a img{
     border: solid var(--blue);
     height: 40px;
 }
+body{align-items: flex-start;}
 footer{
-    background-color: black;
+    background-color: var(--berserk-of-abyss);
     color: white;
     position: relative;
     height: 87px;
