@@ -6,6 +6,7 @@
     border-radius: 2em;
     background-color: white;
     flex-direction: column;
+    margin-top: 10vh;
 }
 
 h5 {
@@ -21,7 +22,6 @@ h5 {
     height: fit-content;
 }
 .content {
-    justify-content: center;
 }
 .card{
     display: flex;
@@ -100,4 +100,18 @@ h5 {
 
 #quote{
     font-family: "Delius Swash Caps",cursive;
+    color: var(--garys-dark-gray);
+}
+nav a img{
+    background-color: var(--blue);
+    border-radius: 50%;
+    border: solid var(--blue);
+    height: 40px;
+}
+footer{
+    background-color: black;
+    color: white;
+    position: relative;
+    height: 87px;
+    margin-top: 10vh;
 }
