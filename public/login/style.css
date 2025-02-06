@@ -54,7 +54,9 @@ span.or {
     font-size: 1rem;
     border-radius: 1.8em;
     cursor: pointer;
+    width: 12.6em;
     margin-top: 10px;
+    transition: background-color .5s;
 }
 
 button {
@@ -62,7 +64,8 @@ button {
 }
 
 .login-button:hover {
-    background-color: var(--blue-light);
+    background-color: var(--devine-blue);
+    color: white;
 } 
 
 

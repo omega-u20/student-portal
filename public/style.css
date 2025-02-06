@@ -10,6 +10,7 @@
     --garys-dark-gray: #898989;
     --berserk-of-abyss: #363636;
     --orange-on-presure: #cd8623;
+    --garlic-green-senpai: hsl(124 100% 20% / 1);
 }
 body{
     font-family: "Host Grotesk", serif;
@@ -64,11 +65,10 @@ h1 {
     font-size: 100pt;
     padding-left: 36pt;
     font-weight: 900;
+    color: white;
 }
 
 .content h1 {
-    color: #000000;
-    font-size: 70pt;
 }
 nav{
     display: flex;

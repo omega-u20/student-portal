@@ -1,0 +1,82 @@
+#holder{
+    width: 85vw;
+    height: fit-content;
+    display: flex;
+    padding: 2em;
+    border-radius: 2em;
+    background-color: white;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+h5 {
+    font-family: "Host Grotesk", serif;
+}
+#archolder{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    width: 100%;
+    height: fit-content;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.arcard{
+    border: solid var(--garys-gray) 1px;
+    width: fit-content;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    background-image: linear-gradient(0deg, transparent, #d1d1d100, #46b53f63);
+    overflow: hidden;
+}
+
+.arcard:hover {
+    box-shadow: 0 0 13px 2px var(--garys-gray);
+}
+
+.arcard button {
+    background-color: var(--garlic-green);
+    border: none;
+    padding: .3em;
+    width: 57px;
+    color: white;
+    font-weight: 600;
+    border-radius: 0.4em;
+    transition: background-color .3s;
+}
+
+.arcard button:hover {
+    background-color: var(--garlic-green-senpai);
+}
+
+.arcard img {
+    position: relative;
+    top: -92px;
+    left: -53px;
+    width: 150%;
+    margin-bottom: -168px;
+    /* clip-path: margin-box; */
+}
+
+.dicrp{
+    color: var(--garys-dark-gray);
+}
+
+#quote{
+    font-family: "Delius Swash Caps",cursive;
+    color: var(--garys-dark-gray);
+}
+nav a img{
+    background-color: var(--blue);
+    border-radius: 50%;
+    border: solid var(--blue);
+    height: 40px;
+}
+body{align-items: flex-start;}
+footer{
+    background-color: var(--berserk-of-abyss);
+    color: white;
+    position: relative;
+    height: 87px;
+    margin-top: 10vh;
+}
