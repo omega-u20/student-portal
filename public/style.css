@@ -56,7 +56,6 @@ div#uni-img {
     z-index: 1;
     background-image: url(./img/uni.jpeg);
     background-position: bottom;
-    background-size: 100% auto;
     background-repeat: no-repeat;
     background-clip: content-box;
 }
@@ -68,7 +67,8 @@ h1 {
 }
 
 .content h1 {
-    color: white;
+    color: #000000;
+    font-size: 70pt;
 }
 nav{
     display: flex;

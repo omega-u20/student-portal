@@ -1,0 +1,41 @@
+#bigguy{background-color: white;width: 80vw;height: 70vh;padding: 2em;display: flex;flex-direction: column;align-items: center;justify-content: space-between;border-radius: 1em;}
+.hostalcard{
+    width: 99%;
+    border: solid var(--blue) 2px;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.hostalcard img {
+    width: inherit;
+}
+
+#img1 {clip-path: polygon(0% 34%,0% 100%,100% 100%,100% 34%);margin-top: -158px;margin-bottom: 10px;}
+.imcont{
+    position: relative;
+    top: 0;
+    height: fit-content;
+    width: 100%;
+}
+#img2 {
+    clip-path: polygon(0% 22%, 0% 82%, 100% 82%, 100% 22%);
+    margin-top: -110px;
+    margin-bottom: -85px;
+}
+
+.hostalcard h2 {
+    font-weight: 900;
+}
+
+.hostalcard a {
+    font-weight: 900;
+    color: var(--blue);
+    font-size: x-large;
+}
+#hostalgrid{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 30px));
+    justify-items: center;
+}

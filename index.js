@@ -9,8 +9,8 @@ app.get('/',(req,res)=>{
 })
 
 app.post('/loging',(req,res)=>{
-    console.log(JSON.stringify(req.body));
-    
+    console.log(req.body);
+    res.redirect('/dashboard')
 })
 
 app.listen(PORT,()=>{

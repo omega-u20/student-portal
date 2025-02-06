@@ -1,0 +1,68 @@
+#dash{
+    background-color: white;
+    width: 80vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    border-radius: 1em;
+}
+#usercontent{
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+}
+#img{
+width: 25%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+#img img {clip-path: circle(47%);background-color: red;}
+#data{
+display: flex;
+flex-direction: column;
+}
+
+#data ul {
+    list-style: none;
+    color: var(--berserk-of-abyss);
+}
+#buttontray{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+    gap: 1em;
+    padding: 1em;
+}
+.dashbtn{
+    width: auto;
+    height: fit-content;
+    display: flex;
+    padding: 1em;
+    border-radius: 1em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2em;
+    border: solid var(--garys-dark-gray) 1px;
+}
+
+.dashbtn a {
+    text-decoration: none;
+    margin: 0;
+}
+
+.dashbtn h4 {
+    margin: 0;
+}
+
+.dashbtn img {
+    width: 50px;
+    background-color: var(--blue);
+    border-radius: 0.4em;
+    padding: .2em;
+}
