@@ -24,7 +24,9 @@
     border: none;
     background-color: var(--orange);
     padding: 0.6em;
-    border-radius: 0.7em;
+    border-radius: 0.3em;
+    font-weight: 600;
+    transition: background-color,color .3s;
 }
 
 .roomcard input:hover {
@@ -34,6 +36,7 @@
     --;
     revert-layer;
     revert-layer;-;
+    color: white;
 }
 .roomcard h4{
     width: max-content;
