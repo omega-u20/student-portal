@@ -21,8 +21,6 @@ h5 {
 .holder-card.assignments {
     height: fit-content;
 }
-.content {
-}
 .card{
     display: flex;
     width: 100%;
