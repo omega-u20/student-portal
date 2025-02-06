@@ -49,7 +49,7 @@ align-items: center;
 }
 #ultrabar{
     position: relative;
-    height: 30vh;
+    height: 31vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -60,7 +60,6 @@ align-items: center;
     position: relative;
     height: 50px;
     top: 0;
-    cursor: pointer;
 }
 .dashbtn a {
     text-decoration: none;

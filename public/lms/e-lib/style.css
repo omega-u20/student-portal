@@ -29,7 +29,36 @@ h5 {
     background-image: linear-gradient(0deg, transparent, #d1d1d100, #46b53f63);
     overflow: hidden;
 }
+#kaijuholder{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    width: 100%;
+}
+#sidepanel{
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+}
+.sidecont{
+    width: 100%;
+    height: fit-content;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-left: 1em;
+    border-bottom: solid var(--garys-gray) 1px;
+    border-top: solid var(--garys-gray) 1px;
+    cursor: pointer;
+}
 
+.sidecont:hover {
+    background-image: linear-gradient(-90deg, var(--garys-gray), transparent);
+}
+
+.sidecont h6 {
+    margin: 0;
+    font-size: 16pt;
+    font-weight: 300;
+}
 .arcard:hover {
     box-shadow: 0 0 13px 2px var(--garys-gray);
 }
